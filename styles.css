@@ -6,7 +6,6 @@
     font-family: titillium;
     src: url("fonts/titillium-web-light.ttf");
 }
-
 * {
     margin: 0px;
     padding: 0px;
@@ -44,6 +43,9 @@ section{
 }
 .container-50{
     width: 50%;
+}
+.container-33{
+    width: 33.3%;
 }
 .flex{
     display: flex;    
@@ -132,8 +134,7 @@ section{
     display: block;
     text-align: center;
     color:#010C80;
-    padding-bottom: 2vw;
-    padding-top:2vw;
+    padding: 2vw 0vw;
     width: 80%;
     margin: auto;
 }
@@ -143,7 +144,7 @@ section{
 }
 .about_txt{
     font-size: 2.6vw;
-    padding-left: 0.5vw;
+    padding-left: 0.6vw;
 }
 .about_txt li{
     color:black;
@@ -159,18 +160,20 @@ section{
 }
 .about_recap p{
     font-size: 2.4vw;
-    text-align: center;
-    padding-top: 1vw;
+    text-align: left;
+    padding-top: 1.5vw;
 }
-.cta{
+.cta p{
     color: #77D4FC;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 3.2vw;
+    text-align: center;
+    padding-top: 4vw;
 }
 .service.container-100{
     box-shadow: 0vw 0.5vw 0.5vw #77D4FC;
     padding-bottom: 4vw;
-    margin-bottom: 3vw;    
+    margin-bottom: 1vw;    
 }
 .service_txt h2{    
     text-align: center;
@@ -201,64 +204,49 @@ section{
     background-size: cover;
     min-height: 25vw;
 }
-
- 
 .gallery_slide{
     max-height: 50vw;
     display: flex;    
     margin: auto;
     padding-bottom: 6vw;
  }
-
-
-
-
-.kont{
-    width:100%;
-    padding: 0;
-    margin: 0;
+.contact{
     background-color: black;
 }
- .kontakt_row{
-    width: 80%;
-    height: 300px;
-    margin: auto;
-    background-color: black;
-    box-shadow: 0px 15px 0px 10px rgba(0,0,0,.6);
- }
- .column{
-    width:33.3%;
-    float:left;
-    background-color: black;
- }
- .column h1{
-    background-color: black;
+ .contact h1{
+    background-color: inherit;
     color: #77D4FC;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3vw;
  }
- .column p{
-    background-color: black;
+ .contact p{
+    background-color: inherit;
     color:white;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2.4vw;
  }
- .column a {
+ .contact a {
     text-decoration: none;
-    background-color: black;
+    background-color: inherit;
     color:white;
  }
- .column i {
+ .contact i {
     scale:90%;
-    background-color: black;
+    background-color: inherit;
     color:white;
  }
  footer{
     background-color: black;
     color: #77D4FC;
+    font-size: 1.5vw;
     margin:auto;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 3vw 0;
+ }
+ footer a{
+    text-decoration: none;
+    background-color: inherit;
+    letter-spacing: 0.25vw;
  }
 
  @media only screen and (max-width: 840px) {
@@ -270,9 +258,9 @@ section{
     }
     .slogan_txt,container-50{
         width: 100%;        
-    }       
-    
+    }   
   }
+
   .clearfix::after{
     content:" ";
     display: block;
