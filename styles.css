@@ -46,8 +46,10 @@ section{
     width: 50%;
 }
 .flex{
-    display: flex;
-    
+    display: flex;    
+}
+.wrap{
+    flex-wrap: wrap;
 }
 .navbar {
     position: sticky;
@@ -127,7 +129,7 @@ section{
     margin-right: -120px;   
 }
 .section_heading {
-    font-size: 3.5vw;
+    font-size: 3.6vw;
     display: block;
     text-align: center;
     color:#010C80;
@@ -165,19 +167,31 @@ section{
     font-weight: bold;
     font-size: 3vw;
 }
-
-
-
-.section_flex_cont_txt h2{
+.service_txt h2{    
     text-align: center;
-    font-size: 0.9em;
+    font-size: 2.6vw;
     color:black;
     width: 80%;
-    margin:auto;
-    padding: 0;
+    margin:auto;    
+    min-height: 25vw;
+    padding: 5vw;
 }
-
-
+.service_img_project{
+    background-image: url(/images/projekty.jpg);
+    background-size: cover;
+}
+.service_img_plumbing{
+    background-image: url(/images/instalacje_hydrauliczne.jpg);
+    background-size: cover;
+}
+.service_img_electric{
+    background-image: url(/images/instalacej_elektryczne.jpg);
+    background-size: cover;
+}
+.service_img_construction{
+    background-image: url(/images/wykonczenie.jpg);
+    background-size: cover;
+}
 
 
 
