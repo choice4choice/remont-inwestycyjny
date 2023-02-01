@@ -109,11 +109,10 @@ section{
     box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);
 }
 .slogan_container{
-    box-shadow: 0 2px 10px #77D4FC;
+    box-shadow: 0vw 0.5vw 0.5vw #77D4FC;
     padding-bottom: 40px;
     margin-top: 0px;
-    z-index: -1;
-       
+    z-index: -1;       
 }
 .slogan_txt{
     text-align: center;
@@ -134,6 +133,7 @@ section{
     text-align: center;
     color:#010C80;
     padding-bottom: 2vw;
+    padding-top:2vw;
     width: 80%;
     margin: auto;
 }
@@ -167,6 +167,11 @@ section{
     font-weight: bold;
     font-size: 3vw;
 }
+.service.container-100{
+    box-shadow: 0vw 0.5vw 0.5vw #77D4FC;
+    padding-bottom: 4vw;
+    margin-bottom: 3vw;    
+}
 .service_txt h2{    
     text-align: center;
     font-size: 2.6vw;
@@ -179,57 +184,35 @@ section{
 .service_img_project{
     background-image: url(/images/projekty.jpg);
     background-size: cover;
+    min-height: 25vw;
 }
 .service_img_plumbing{
     background-image: url(/images/instalacje_hydrauliczne.jpg);
     background-size: cover;
+    min-height: 25vw;
 }
 .service_img_electric{
     background-image: url(/images/instalacej_elektryczne.jpg);
     background-size: cover;
+    min-height: 25vw;
 }
 .service_img_construction{
     background-image: url(/images/wykonczenie.jpg);
     background-size: cover;
+    min-height: 25vw;
 }
 
-
-
-
-
-
-   
-#left{
-    margin-left: 40px;
-}
-#right{
-    margin-right: 60px;
-}
-
+ 
 .gallery_slide{
-    max-height: 650px;
+    max-height: 50vw;
     display: flex;
     align-items: center;
     margin: auto;
  }
- .gallery{
-    background-image:url("images/citygs.jpg");
-    height: 950px;
-    background-position: 0px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    padding: 0;
-    box-shadow: 0px 10px 0px 18px rgba(0,0,0,.5) inset;
- }
- .gallery h1{
-    background-color: inherit;
-    color:#010C80;
-    padding: 30px 0px 30px 0px;
-    z-index: -1;
- }
+
+
+
+
 .kont{
     width:100%;
     padding: 0;
@@ -285,9 +268,10 @@ section{
     .slogan_img {
         display:none;
     }
-    .container-50{
+    .slogan_txt,container-50{
         width: 100%;        
     }       
+    
   }
   .clearfix::after{
     content:" ";
