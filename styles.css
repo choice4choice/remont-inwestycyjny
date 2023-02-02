@@ -9,7 +9,7 @@
 * {
     margin: 0px;
     padding: 0px;
-     background-color: white;/* ta linijka nie ma za bardzo sensu bo ona ma wpływ na każdy element, jeśli chciałeś żeby tło bylo białe to lepiej dać to do body */
+    background-color: white;
     font-family: titillium;
     box-sizing: border-box;
 }
@@ -29,12 +29,13 @@ section{
 }
 .container-100{
     width: 100%;
-    height: auto;
+    height: auto;    
 }
 .container-80{
     width: 80%;
     height: auto;
-    margin:auto; /*  wyjebałbym tą linijke i dał display flex na parencie  */
+    display: flex;
+    margin:auto;  
     padding-top: 1vw;
     padding-bottom: 0.5vw;
 }
@@ -164,6 +165,7 @@ section{
     padding-top: 1.5vw;
 }
 .cta p{
+    margin: auto;
     color: #77D4FC;
     font-weight: bold;
     font-size: 3.2vw;
@@ -175,16 +177,16 @@ section{
     padding-bottom: 4vw;
     margin-bottom: 1vw;    
 }
+.service_txt {    
+    display: flex;     
+    align-items: center;
+}
 .service_txt h2{    
     text-align: center;
     font-size: 2.6vw;
     color:black;
-    width: 80%;
-    /* ja bym wyjebał te 3 linie poniżej */
-    /* i dałbym po prostu display: flex; na divie który jest parentem */
-    margin:auto;    
-    min-height: 25vw;
-    padding: 5vw;
+    margin: auto;
+    padding: 4vw; 
 }
 .service_img_project{
     background-image: url(/images/projekty.jpg);
@@ -245,6 +247,9 @@ section{
     text-align: center;
     padding: 3vw 0;
  }
+ footer span{
+    background-color: black;
+ }
  footer a{
     text-decoration: none;
     background-color: inherit;
@@ -255,7 +260,6 @@ section{
     display: block;
     clear: both;
 }
-
  @media only screen and (max-width: 840px) {
     .navbar li{
         display: none;
