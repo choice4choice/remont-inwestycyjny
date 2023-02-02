@@ -9,7 +9,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: white;
+     background-color: white;/* ta linijka nie ma za bardzo sensu bo ona ma wpływ na każdy element, jeśli chciałeś żeby tło bylo białe to lepiej dać to do body */
     font-family: titillium;
     box-sizing: border-box;
 }
@@ -34,7 +34,7 @@ section{
 .container-80{
     width: 80%;
     height: auto;
-    margin:auto;
+    margin:auto; /*  wyjebałbym tą linijke i dał display flex na parencie  */
     padding-top: 1vw;
     padding-bottom: 0.5vw;
 }
@@ -180,6 +180,8 @@ section{
     font-size: 2.6vw;
     color:black;
     width: 80%;
+    /* ja bym wyjebał te 3 linie poniżej */
+    /* i dałbym po prostu display: flex; na divie który jest parentem */
     margin:auto;    
     min-height: 25vw;
     padding: 5vw;
