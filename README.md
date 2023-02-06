@@ -3,8 +3,8 @@
 This page has been fully created in HTML and CSS with basics JS scripts, no framework has been used yet.</p><br>
 <ul> Curent Tasks:
   <li><s>make this page responsive for smaller devices</s></li>
-  <li> integrate gitHub with FTP server </li>
+  <li><s>add GA4 and GTM events</s></li>
+  <li>integrate gitHub with FTP server </li>
   <li>upgrade JS scripst</li>
-  <li>add GA events</li>
   <li>upgrade design</li>
 </ul>
